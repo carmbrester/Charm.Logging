@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charm.Logging.Log4net", "Charm.Logging.Log4net\Charm.Logging.Log4net.csproj", "{BCD71C61-5A01-4E0F-AD22-619261E22D67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charm.Logging.Log4net.Tests", "Charm.Logging.Log4net.Tests\Charm.Logging.Log4net.Tests.csproj", "{F3782CBA-0F94-4132-A6BA-D235531D6C4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,18 @@ Global
 		{BCD71C61-5A01-4E0F-AD22-619261E22D67}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BCD71C61-5A01-4E0F-AD22-619261E22D67}.Test|Any CPU.ActiveCfg = Release|Any CPU
 		{BCD71C61-5A01-4E0F-AD22-619261E22D67}.Test|Any CPU.Build.0 = Release|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Local|Any CPU.Build.0 = Release|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Prod|Any CPU.Build.0 = Release|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{F3782CBA-0F94-4132-A6BA-D235531D6C4B}.Test|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

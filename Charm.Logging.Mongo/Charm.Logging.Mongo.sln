@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{75B07EC4-A9DC-4F61-87D0-6953B4F0303D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charm.Logging.Mongo", "Charm.Logging.Mongo\Charm.Logging.Mongo.csproj", "{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charm.Logging.Mongo.Tests", "Charm.Logging.Mongo.Tests\Charm.Logging.Mongo.Tests.csproj", "{F5B3D563-3494-42ED-AB78-8B006E15819E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Local|Any CPU = Local|Any CPU
+		Prod|Any CPU = Prod|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Local|Any CPU.Build.0 = Local|Any CPU
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{7C3D8404-96FA-47E8-B61D-9E6A3113ED76}.Test|Any CPU.Build.0 = Test|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Local|Any CPU.Build.0 = Release|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Prod|Any CPU.Build.0 = Release|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B3D563-3494-42ED-AB78-8B006E15819E}.Test|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
