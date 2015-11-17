@@ -292,7 +292,7 @@ namespace Charm.Logging.Log4net
             _log.Warn(messagePack, exception);
         }
 
-        private MessagePack CreateMessagePack(object message, string category = null,
+        private Logging.MessagePack CreateMessagePack(object message, string category = null,
             dynamic data = null)
         {
             string executionId = null;
@@ -300,7 +300,7 @@ namespace Charm.Logging.Log4net
             {
                 executionId = _executionIdProvider.GetExecutionId;
             }
-            var messagePack = new MessagePack(message, executionId, category, data);
+            var messagePack = new Logging.MessagePack(message, executionId, category, data);
             return messagePack;
         }
 
